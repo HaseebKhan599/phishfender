@@ -2,6 +2,7 @@
     background-color: #003049;
     width: 100%;
     height: 69px;
+    padding: 0;
 }   
 
 #title{
@@ -22,5 +23,13 @@
 }
 
 #gridCol1{
+    border: 1px dotted red;
+}
+
+#gridCol2{
+    border: 1px dotted red;
+}
+
+#gridCol3{
     border: 1px dotted red;
 }

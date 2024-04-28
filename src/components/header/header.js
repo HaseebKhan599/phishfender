@@ -8,15 +8,14 @@ const header = ()=>{
                     <div id={Styles.gridCol1} class="col-sm-4">
                         <h2 id={Styles.title}>PhishFender</h2>
                     </div>
-                    <div class="col-sm-3">
+                    <div id={Styles.gridCol2} class="col-sm-3">
 
                     </div>
-                    <div class="col-sm-5">
+                    <div id={Styles.gridCol3} class="col-sm-5">
                     
                     </div>
                 </div>
-            </div>
-            
+            </div> 
         </div>
     );
 }
