@@ -1,6 +1,7 @@
-import Styles from "./header.module.css";
+import Styles from "./Header.module.css";
+import Navitem from "./navitem/Navitem";
 
-const header = ()=>{
+const Header = ()=>{
     return (
         <div id={Styles.headerDiv}>
             <div id={Styles.gridContainer} class="container">
@@ -12,7 +13,9 @@ const header = ()=>{
 
                     </div>
                     <div id={Styles.gridCol3} class="col-sm-5">
-                    
+                        <Navitem/>
+                        <Navitem />
+                        <Navitem/>
                     </div>
                 </div>
             </div> 
@@ -20,4 +23,4 @@ const header = ()=>{
     );
 }
 
-export default header;
+export default Header;
