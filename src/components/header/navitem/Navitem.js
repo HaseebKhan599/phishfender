@@ -4,7 +4,7 @@ const Navitem = ()=>{
     return (
         <a href="www.google.com" target="_blank">
             <div id={Styles.navItemDiv}>
-                <p>Overview</p>
+                <p id={Styles.navItem}>Overview</p>
             </div>
         </a>
     );

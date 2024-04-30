@@ -1,4 +1,11 @@
 #navItemDiv{
     width: 33.33%;
     height: auto;
+    padding-top: 10px;
+}
+
+#navItem{
+    color: #FCBF49;
+    font-size: 1.4em;
+    font-weight: bolder;
 }
