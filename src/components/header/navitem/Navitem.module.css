@@ -10,3 +10,8 @@
     font-weight: bolder;
     text-decoration: none;
 }
+
+#navItem:hover{
+    color: #003049;
+    background-color:#FCBF49;
+}
