@@ -1,6 +1,7 @@
 #navItemDiv{
-    width: 33.33%;
-    height: auto;
+    border: 1px dotted white;
+    width: 130px;
+    height: 50px;
     padding-top: 10px;
 }
 
@@ -14,4 +15,12 @@
 #navItem:hover{
     color: #003049;
     background-color:#FCBF49;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
 }
