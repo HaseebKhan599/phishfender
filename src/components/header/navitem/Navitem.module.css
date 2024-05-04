@@ -10,6 +10,7 @@
     font-size: 1.4em;
     font-weight: bolder;
     text-decoration: none;
+    border-radius: 20px;
 }
 
 #navItem:hover{
